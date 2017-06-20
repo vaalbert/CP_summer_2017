@@ -43,7 +43,7 @@ public class TicTacToe {
                 winner = tab[0][2];
 
         if ( winner == ' ' )
-            System.out.println("There is no winner for this game.");
+            System.out.println("Draw !");
         else
             System.out.println("The winner is: " + winner+".");
     }
